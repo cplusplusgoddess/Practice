@@ -12,7 +12,7 @@ CFLAGS = -ggdb -DDEBUG
 TARGETS = pacific_atlantic weblinks cafeteria find_seq find_dups tree islands anagram search intervals rotate palidrome permutation card_game longest_unique_sub prime_test hackerrank sort sort_colors
 #TARGETS = prime_test hackerrank sort recurse
 # CPPFLAGS  = -v -Wall -std=c++0x -ggdb -fPIC
-CPPFLAGS =  -ggdb
+CPPFLAGS =  -ggdb -DDEBUG
 LDFLAGS = -std=c++2a -stdlib=libc++ 
 
 LDFLAGS_COMMON = -std=c++2a -stdlib=libc++ 
